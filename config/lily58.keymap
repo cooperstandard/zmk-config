@@ -10,9 +10,9 @@
 #include <dt-bindings/zmk/ext_power.h>
 
 / {
-  &mt{
-    flavor = "balanced"
-  }
+  // &mt{
+  //   flavor = "balanced"
+  // }
   keymap {
     compatible = "zmk,keymap";
 
