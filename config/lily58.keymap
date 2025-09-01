@@ -65,11 +65,11 @@
 
             display-name = "Lower";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                      &trans          &trans          &trans        &trans           &trans   &trans
-&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                      &kp F6          &kp F7          &kp F8        &kp F9           &kp F10  &kp F11
-&trans  &trans  &trans  &trans  &trans  &mkp MB1                    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans   &kp F12
-&trans  &trans  &trans  &trans  &trans  &mkp MB2  &trans    &trans  &mkp MB1        &mkp MB2        &trans        &trans           &trans   &trans
-                        &trans  &trans  &mo 3     &trans    &trans  &trans          &trans          &trans
+&trans  &trans        &trans      &trans         &trans        &trans                           &trans          &trans          &trans        &trans           &trans        &trans
+&trans  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)                    &kp LS(CARET)   &kp LS(AMPS)    &kp LS(STAR)  &kp LS(LPAR)     &kp LS(RPAR)  &kp F11
+&trans  &trans        &trans      &trans         &trans        &mkp MB1                         &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans        &kp F12
+&trans  &trans        &trans      &trans         &trans        &mkp MB2       &trans    &trans  &mkp MB1        &mkp MB2        &trans        &trans           &trans        &trans
+                                  &trans         &trans        &mo 3          &trans    &trans  &trans          &trans          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
